@@ -2,17 +2,7 @@
   <div id="app">
     <MyHeaders />
     <router-view></router-view>
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-    <hr> 
-     
+    <hr>
     <MyFooters v-show='$route.meta.show' />
   </div>
 </template>
