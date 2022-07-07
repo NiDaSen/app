@@ -8,6 +8,10 @@
     <hr>
     <hr>
     <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
     <MyFooters v-show='$route.meta.show' />
   </div>
 </template>
