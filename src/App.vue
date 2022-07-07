@@ -3,13 +3,7 @@
     <MyHeaders />
     <router-view></router-view>
     <hr>
-    <hr>
-    <hr>
-    <hr>
-    <hr>
-    <hr>
     <MyFooters v-show='$route.meta.show' />
-    <hr>
   </div>
   </div>
 </template>
@@ -21,15 +15,6 @@
     name: 'App',
     components: { MyHeaders, MyFooters },
     mounted() {
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(123456);
-      console.log(提交成功了);
       this.$store.dispatch('category/cateforyList');
     },
   }
