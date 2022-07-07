@@ -4,6 +4,8 @@
     <router-view></router-view>
     <hr>
     <MyFooters v-show='$route.meta.show' />
+    <hr>
+  </div>
   </div>
 </template>
 
