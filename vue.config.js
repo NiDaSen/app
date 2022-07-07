@@ -2,6 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   // 123打包之后去除map文件，打包npm run build
   productionSourceMap: false,
+  //nihao123456484651231321313
   transpileDependencies: true,
   // 代码检查
   lintOnSave: false,
