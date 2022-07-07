@@ -3,6 +3,11 @@
     <MyHeaders />
     <router-view></router-view>
     <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
     <MyFooters v-show='$route.meta.show' />
   </div>
 </template>
@@ -14,6 +19,11 @@
     name: 'App',
     components: { MyHeaders, MyFooters },
     mounted() {
+      console.log(123456);
+      console.log(123456);
+      console.log(123456);
+      console.log(123456);
+      console.log(123456);
       console.log(123456);
       this.$store.dispatch('category/cateforyList');
     },
