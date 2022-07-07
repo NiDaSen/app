@@ -14,6 +14,7 @@
     name: 'App',
     components: { MyHeaders, MyFooters },
     mounted() {
+      console.log(123456);
       this.$store.dispatch('category/cateforyList');
     },
   }
